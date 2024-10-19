@@ -5,9 +5,10 @@ int main(){
     int n = 5;
     int y = 10;
     int u ;
-    u=(y<n? y:n);
+    u=( 987==y? y:n);
     cout <<u;
 }
 
 
- //condiiton ? true : false
+ //condiiton ? true : false  // 0=false 1=true 
+ // condition ==0  true =1 
