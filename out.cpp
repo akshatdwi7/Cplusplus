@@ -1,13 +1,16 @@
 #include<iostream>
 using namespace std;
+ 
+ void cube(int cub , string hi){
+    if(cub>=5){
+    cub= cub *cub*cub;} 
+    else {
+        cout<< "this not greater than 5";
+        cout<<cub<<hi;
+    }
 
-
-int main()
-{
-float a=12.2'
-if(a==12.2)
-cout<< “equal”;
-else cout << “not equal”;
-return 1;
+}
+int main(){
+cube(2," ");
 
 }
